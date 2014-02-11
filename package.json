@@ -1,0 +1,30 @@
+{
+    "name": "polyfill-middleware",
+    "version": "0.0.0",
+    "description": "http middleware to serve polyfill.js based on browser",
+    "dependencies": {
+        "polyfill": "defunctzombie/polyfill#c75bc0c94f",
+        "after": "0.8.1",
+        "debug": "0.7.4",
+        "semver": "2.2.1",
+        "useragent": "2.0.7"
+    },
+    "devDependencies": {
+        "mocha": "~1.17.0",
+        "supertest": "0.9.0",
+        "express": "3.4.8"
+    },
+    "files": [
+        "lib",
+        "index.js"
+    ],
+    "scripts": {
+        "test": "mocha --reporter list --ui qunit test/index.js"
+    },
+    "author": "Roman Shtylman <shtylman@gmail.com",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com:defunctzombie/polyfill-middleware"
+    }
+}
