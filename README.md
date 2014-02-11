@@ -1,4 +1,4 @@
-# polyfill-middleware
+# polyfill-middleware [![Build Status](https://travis-ci.org/defunctzombie/polyfill-middleware.png)](https://travis-ci.org/defunctzombie/polyfill-middleware)
 
 http and express middleware serves selective polyfills for javascript based on the requesting user-agent.
 
